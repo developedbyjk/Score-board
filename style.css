@@ -1,0 +1,102 @@
+body 
+{
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.container{
+    margin-top: 50px;
+    background-color: #1B244A;
+    width: 80%;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+    max-width: 400px;
+}
+.team{
+    text-align: center;
+}
+.team h1{
+    color: aliceblue;
+}
+.mybox{
+    height: 100px;
+    width: 100px;
+    background-color: #080001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+
+.mybox p {
+    font-family: 'Press Start 2P', cursive;
+    color: #F94F6D;
+    font-size: 3rem;
+}
+
+.calc-box{
+    margin-top: 0px;
+}
+
+.calc-box button{
+    font-size: 1.2rem;
+    padding: 7px;
+    outline: none;
+    border:  1px solid #9AABD8;
+    background-color: transparent;
+    color:  #9AABD8;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 5px;
+  margin-top: 10px;
+
+}
+
+.calc-box button:hover{
+    color: #1B244A;
+    background-color: #9AABD8;
+}
+
+#reset{
+   background-color: #080001;
+   color: #F94F6D;
+   font-family: 'Press Start 2P', cursive;
+   border: none;
+   outline: none;
+text-align: center;
+   padding: 10px 12px;
+   font-size: 2rem;
+   border-radius: 7px;
+   cursor: pointer;
+
+}
+
+.btn_container{
+    padding-bottom: 30px;
+    margin-top: -20px;
+    text-align: center;
+    background-color: #1B244A;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    max-width: 400px;
+}
+
+footer{
+    position: absolute;
+    top:90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Press Start 2P', cursive;
+   
+}
+#footer_link{
+    color: #F94F6D;
+}
